@@ -1,3 +1,5 @@
+> **Archived** — Kept for reference. Not part of the current portfolio.
+
 # React DataTable
 
 [![npm version](https://img.shields.io/npm/v/@idirdev/react-datatable.svg)](https://www.npmjs.com/package/@idirdev/react-datatable)
