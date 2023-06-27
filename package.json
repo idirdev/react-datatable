@@ -10,7 +10,8 @@
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
     "lint": "tsc --noEmit",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "test": "vitest run"
   },
   "peerDependencies": {
     "react": ">=18.0.0",
@@ -22,7 +23,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tsup": "^8.0.0",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "vitest": "^2.0.0"
   },
   "keywords": ["react", "table", "datatable", "grid", "sort", "filter", "pagination", "typescript"],
   "author": "idirdev",
