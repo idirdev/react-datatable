@@ -193,3 +193,21 @@ function CustomTable({ data, columns }) {
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+**React DataTable** est un composant React de tableau de données avancé, avec tri des colonnes, pagination, filtrage et sélection de lignes. Il est conçu pour être hautement personnalisable et performant même avec de grands ensembles de données.
+
+### Installation
+```bash
+npm install @idirdev/react-datatable
+```
+
+### Utilisation
+```tsx
+import { DataTable } from "@idirdev/react-datatable";
+// <DataTable columns={columns} data={rows} pagination />
+```
